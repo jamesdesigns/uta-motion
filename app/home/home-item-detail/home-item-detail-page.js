@@ -1,6 +1,6 @@
 // NEW
 const dialogsModule = require("tns-core-modules/ui/dialogs");
-const ogdenN = `Hello World!`;
+// const ogdenN = `Hello World!`;
 
 // New
 var observable = require("data/observable");
