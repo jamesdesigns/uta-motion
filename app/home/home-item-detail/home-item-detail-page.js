@@ -7,12 +7,12 @@ var observable = require("data/observable");
 var pageData = new observable.Observable();
 
 exports.loaded = function(args) {
-  pageData.set("NBtime", true);
+  pageData.set("routes.NBtime", true);
   args.object.bindingContext = pageData;  
 }
 
 exports.toggle = function() {
-pageData.set("NBtime", !pageData.get("NBtime"));
+pageData.set("routes.NBtime", !pageData.get("routes.NBtime"));
 };
 
 // End of NEW

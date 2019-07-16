@@ -1,5 +1,6 @@
 
 <Page
+
     class="page"
     navigatingTo="onNavigatingTo"  
     xmlns="http://schemas.nativescript.org/tns.xsd">
@@ -13,18 +14,25 @@
         <Label class="action-bar-title" text="{{ name }}"></Label>
     </ActionBar>
 
-    <ScrollView >
-
-        <StackLayout orientation="vertical" width="230" height="610">
+    <ScrollView>
+        <StackLayout orientation="vertical" width="230" height="1710">
             <Label class="m-10" row="0" col="0" colspan="2" text="{{ station }}"></Label>
             <Label class="m-10 h3" row="0" col="1" colspan="2" text="{{ address }}"></Label> 
             <Label class="m-10 h3" row="0" col="2" colspan="2" text="{{ city }}"></Label>
 
-  
             <Button class="btn btn-primary m-t-10" text="{{ routes.NBtime ? 'Hide' : 'North Bound' }}" tap="toggle"></Button>
-            <Label text="North Bound" visibility="{{ routes.NBtime ? 'visible' : 'collapsed' }}" textWrap="true"></Label>
-             <Label class="m-10 h3" row="0" col="2" colspan="2" text="{{ routes.NBtime }}" textWrap="true"></Label>
-             
+            
+            <WrapLayout orientation="vertical" backgroundColor="lightgray">
+            <!-- <Label class="m-10" row="0" col="0" colspan="2" text="North Bound"></Label>
+            <Label text="{{ routes.NBtime }}" visibility="{{ routes.NBtime ? 'visible' : 'collapsed' }}" textWrap="true"></Label> -->
+            <Label class="m-10" width="150" height="40" text="North Bound"></Label>
+            <Label width="90" height="620" text="{{ routes.NBtime }}" visibility="{{ routes.NBtime ? 'visible' : 'collapsed' }}" textWrap="true"></Label>
+
+            
+            <Label class="m-10" width="150" height="40" text="South Bound"></Label>
+            <Label width="90" height="720" text="{{ routes.SBtime }}" visibility="{{ routes.SBtime ? 'visible' : 'collapsed' }}" textWrap="true"></Label>
+            </WrapLayout>
+        
         </StackLayout>
     </ScrollView> 
 
