@@ -4,7 +4,7 @@
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
     <ActionBar class="action-bar">
-        <Label class="action-bar-title" text="Home"></Label>
+        <Image width="150" src="~/images/uta-logo-v2.png" stretch="none" ></Image>
     </ActionBar>
 
     <ListView items="{{ items }}" itemTap="onItemTap" class="list-group">
