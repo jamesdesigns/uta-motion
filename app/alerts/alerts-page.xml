@@ -10,5 +10,7 @@
     <GridLayout class="page-content">
         <Label class="page-icon fa" text="&#xf071;"></Label>
         <Label class="page-placeholder" text="Alerts Page"></Label>
+         <WebView width="900%" height="1900px" src="https://twitter.com/RideUTA" />
+
     </GridLayout>
 </Page>
