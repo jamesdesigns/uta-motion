@@ -14,8 +14,6 @@ function HomeItemsViewModel() {
                     NBtime: "5:24 AM   6:24 AM   6:54 AM   7:24 AM  7:54 AM  8:24 AM   8:54 AM   9:24 AM  NO STOP  10:24 AM   NO STOP   11:24 AM   12:24 PM   1:24 PM   2:24 PM   3:24 PM   3:54 PM   4:24 PM   4:54 PM   5:24 PM   5:54 PM   6:24 PM   6:54 PM   7:24 PM   7:54 PM   NO STOP   8:54 PM   NO STOP   9:54 PM   10:54 PM",
                     SBtime: "NO STOP   NO STOP  5:07 AM  5:37 AM   6:07 AM   6:37 AM  7:07 AM   7:37 AM   8:07 AM   8:37 AM   9:37 AM   10:37 AM   11:37 AM   12:37 PM   1:37 PM   NO STOP   2:37 PM   3:07 PM   3:37 PM   4:07 PM   4:37 PM   5:07 PM   5:37 PM   6:07 PM   6:37 PM   7:07 PM   8:07 PM   9:07 PM   10:07 PM   10:37 PM   11:07 PM"
                 },
-                // NBtimes: `NO STOP   NO STOP   5:07 AM   5:37 AM  6:07 AM  6:37 AM   7:07 AM   7:37 AM  8:07 AM  8:37 AM   9:37 AM   10:37 AM   11:37 AM   12:37 PM   1:37 PM   NO STOP   2:37 PM   3:07 PM   3:37 PM   4:07 PM   4:37 PM   5:07 PM   5:37 PM   6:07 PM   6:37 PM   7:07 PM   8:07 PM   9:07 PM   10:07 PM   10:37 PM   11:07 PM`,
-                // SBtimes: `9:00 AM   9:00 AM  10:00 AM  2:00 PM   3:30 PM    4:00 PM  7:00 PM  10:00 PM 10:35 PM`,
             },
             {
                 name: "Roy",
@@ -60,8 +58,10 @@ function HomeItemsViewModel() {
                 city: "Farmington, UT",
                 northBound: "North Bound",
                 southBound: "South Bound",
-                NBtimes: `8:00 AM   9:00 AM  10:00 AM  2:00 PM   3:30 PM    4:00 PM  7:00 PM  10:00 PM 10:35 PM`,
-                SBtimes: `1:00 PM   9:00 AM  10:00 AM  2:00 PM   3:30 PM    4:00 PM  7:00 PM  10:00 PM 10:35 PM`
+                routes: {
+                    NBtime: "4:53 AM   5:53 AM   6:23 AM   6:53 AM   7:23 AM   7:53 AM   8:23 AM   8:53 AM   NO STOP   9:53 AM   NO STOP   10:53 AM   11:53 AM   12:53 PM   1:53 PM   2:53 PM   3:23 PM   3:53 PM   4:23 PM   4:53 PM   5:23 PM   5:53 PM   6:23 PM   6:53 PM   7:23 PM   NO STOP   8:23 PM   NO STOP   9:23 PM   10:23 PM   11:23 PM   11:53 PM",
+                    SBtime: "NO STOP   NO STOP   5:39 AM   6:09 AM   6:39 AM   7:09 AM  7:39 AM  8:09 AM   8:39 AM   9:09 AM   10:09 AM   11:09 AM   12:09 PM   1:09 PM   2:09 PM   NO STOP   3:09 PM   3:39 PM   4:09 PM   4:39 PM   5:09 PM   5:39 PM   6:09 PM   6:39 PM   7:09 PM   7:39 PM   8:39 PM   9:39 PM   10:39 PM   11:09 PM   11:39 PM"
+                },            
             },
             {
                 name: "Woods Cross",
@@ -70,8 +70,10 @@ function HomeItemsViewModel() {
                 city: "Woods Cross, UT",
                 northBound: "North Bound",
                 southBound: "South Bound",
-                NBtimes: `8:00 AM   9:00 AM  10:00 AM  2:00 PM   3:30 PM    4:00 PM  7:00 PM  10:00 PM 10:35 PM`,
-                SBtimes: `2:00 PM   9:00 AM  10:00 AM  2:00 PM   3:30 PM    4:00 PM  7:00 PM  10:00 PM 10:35 PM`
+                routes: {
+                    NBtime: "4:42 AM   5:42 AM   6:12 AM   6:42 AM   7:12 AM   7:42 AM   8:12 AM   8:42 AM   NO STOP   9:42 AM   NO STOP   10:42 AM   11:42 AM   12:42 PM   1:42 PM   2:42 PM   3:12 PM   3:42 PM   4:12 PM   4:42 PM   5:12 PM   5:42 PM   6:12 PM   6:42 PM   7:12 PM   NO STOP   8:12 PM   NO STOP   9:12 PM   10:12 PM   11:12 PM   11:42 PM",
+                    SBtime: "NO STOP   NO STOP   5:50 AM   6:20 AM   6:50 AM   7:20 AM  7:50 AM  8:20 AM   8:50 AM   9:20 AM   10:20 AM   11:20 AM   12:20 PM   1:20 PM   2:20 PM   NO STOP   3:20 PM   3:50 PM   4:20 PM   4:50 PM   5:20 PM   5:50 PM   6:20 PM   6:50 PM   7:20 PM   7:50 PM   8:50 PM   9:50 PM   10:50 PM   11:20 PM   11:50 PM"
+                },            
             },
             {
                 name: "North Temple",

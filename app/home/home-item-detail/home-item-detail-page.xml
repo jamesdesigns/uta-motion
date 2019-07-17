@@ -15,7 +15,7 @@
     </ActionBar>
 
     <ScrollView>
-        <StackLayout orientation="vertical" width="230" height="1710">
+        <!-- <StackLayout orientation="vertical" width="230" height="1710">
             <Label class="m-10" row="0" col="0" colspan="2" text="{{ station }}"></Label>
             <Label class="m-10 h3" row="0" col="1" colspan="2" text="{{ address }}"></Label> 
             <Label class="m-10 h3" row="0" col="2" colspan="2" text="{{ city }}"></Label>
@@ -23,17 +23,25 @@
             <Button class="btn btn-primary m-t-10" text="{{ routes.NBtime ? 'Hide' : 'North Bound' }}" tap="toggle"></Button>
             
             <WrapLayout orientation="vertical" backgroundColor="lightgray">
-            <!-- <Label class="m-10" row="0" col="0" colspan="2" text="North Bound"></Label>
-            <Label text="{{ routes.NBtime }}" visibility="{{ routes.NBtime ? 'visible' : 'collapsed' }}" textWrap="true"></Label> -->
-            <Label class="m-10" width="150" height="40" text="North Bound"></Label>
+             <Label class="m-10" row="0" col="0" colspan="2" text="North Bound"></Label>
+            <Label text="{{ routes.NBtime }}" visibility="{{ routes.NBtime ? 'visible' : 'collapsed' }}" textWrap="true"></Label> 
+            <Label class="m-5" width="230" height="20" text="North Bound"></Label>
             <Label width="90" height="620" text="{{ routes.NBtime }}" visibility="{{ routes.NBtime ? 'visible' : 'collapsed' }}" textWrap="true"></Label>
 
             
-            <Label class="m-10" width="150" height="40" text="South Bound"></Label>
+            <Label class="m-5" width="150" height="20" text="South Bound"></Label>
             <Label width="90" height="720" text="{{ routes.SBtime }}" visibility="{{ routes.SBtime ? 'visible' : 'collapsed' }}" textWrap="true"></Label>
             </WrapLayout>
         
-        </StackLayout>
+        </StackLayout> -->
+<StackLayout orientation="vertical" width="410" height="910" backgroundColor="white">
+            <Label class="m-5" row="0" col="0" colspan="2" text="{{ station }}"></Label>
+            <Label class="m-5 h3" row="0" col="1" colspan="2" text="{{ address }}"></Label> 
+            <Label class="m-5 h3" row="0" col="2" colspan="2" text="{{ city }}"></Label>
+
+    <Label text="{{ routes.NBtime }}" textWrap="true" width="410" height="190" backgroundColor="darkgray"></Label>
+    <Label text="{{ routes.SBtime }}" textWrap="true" width="410" height="190" backgroundColor="lightgray"></Label>
+  </StackLayout>
     </ScrollView> 
 
 </Page>
