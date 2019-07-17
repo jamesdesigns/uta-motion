@@ -7,6 +7,8 @@
         <Image width="150" src="~/images/uta-logo-v2.png" stretch="none" ></Image>
     </ActionBar>
 
+
+
     <ListView items="{{ items }}" itemTap="onItemTap" class="list-group">
         <ListView.itemTemplate>
             <StackLayout orientation="horizontal" class="list-group-item">
@@ -14,4 +16,10 @@
             </StackLayout>
         </ListView.itemTemplate>
     </ListView>
+
+
+
+
+
+    
 </Page>

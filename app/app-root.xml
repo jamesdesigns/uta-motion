@@ -13,8 +13,10 @@ http://docs.nativescript.org/cookbook/ui/tab-view
     <TabViewItem title="Map" ios:iconSource="res://tabIcons/map" android:iconSource="res://map">
         <Frame defaultPage="map/map-page"></Frame>
     </TabViewItem>
-
-    <TabViewItem title="Search" ios:iconSource="res://tabIcons/search" android:iconSource="res://search">
-        <Frame defaultPage="search/search-page"></Frame>
+    <TabViewItem title="Favorites" ios:iconSource="res://tabIcons/heart" android:iconSource="res://heart">
+        <Frame defaultPage="favorites/favorites-page"></Frame>
+    </TabViewItem>
+    <TabViewItem title="Alerts" ios:iconSource="res://tabIcons/alert" android:iconSource="res://alert">
+        <Frame defaultPage="alerts/alerts-page"></Frame>
     </TabViewItem>
 </TabView>
