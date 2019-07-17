@@ -39,7 +39,10 @@
             <Label class="m-5 h3" row="0" col="1" colspan="2" text="{{ address }}"></Label> 
             <Label class="m-5 h3" row="0" col="2" colspan="2" text="{{ city }}"></Label>
 
+    <Button style="background-color: red;" class="btn btn-primary m-t-10" text="{{ routes.NBtime ? 'Hide' : 'North Bound' }}" tap="toggle"></Button>
     <Label text="{{ routes.NBtime }}" textWrap="true" width="410" height="190" backgroundColor="darkgray"></Label>
+    
+    <Button style="background-color: red;" class="btn btn-primary m-t-10" text="{{ routes.SBtime ? 'Hide' : 'South Bound' }}" tap="toggle"></Button>
     <Label text="{{ routes.SBtime }}" textWrap="true" width="410" height="190" backgroundColor="lightgray"></Label>
   </StackLayout>
     </ScrollView> 

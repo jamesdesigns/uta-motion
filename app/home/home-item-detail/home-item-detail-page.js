@@ -7,12 +7,12 @@ var observable = require("tns-core-modules/data/observable");
 var pageData = new observable.Observable();
 
 exports.loaded = function(args) {
-  pageData.set("routes.NBtime", true);
+  pageData.set("NBtime", true);
   args.object.bindingContext = pageData;  
 }
 
 exports.toggle = function() {
-pageData.set("routes.NBtime", !pageData.get("routes.NBtime"));
+pageData.set("NBtime", !pageData.get("NBtime"));
 };
 
 // End of NEW
