@@ -71,8 +71,8 @@ function HomeItemsViewModel() {
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
-                    NBtime: "4:42 AM   5:42 AM   6:12 AM   6:42 AM   7:12 AM   7:42 AM   8:12 AM   8:42 AM   NO STOP   9:42 AM   NO STOP   10:42 AM   11:42 AM   12:42 PM   1:42 PM   2:42 PM   3:12 PM   3:42 PM   4:12 PM   4:42 PM   5:12 PM   5:42 PM   6:12 PM   6:42 PM   7:12 PM   NO STOP   8:12 PM   NO STOP   9:12 PM   10:12 PM   11:12 PM   11:42 PM",
-                    SBtime: "NO STOP   NO STOP   5:50 AM   6:20 AM   6:50 AM   7:20 AM  7:50 AM  8:20 AM   8:50 AM   9:20 AM   10:20 AM   11:20 AM   12:20 PM   1:20 PM   2:20 PM   NO STOP   3:20 PM   3:50 PM   4:20 PM   4:50 PM   5:20 PM   5:50 PM   6:20 PM   6:50 PM   7:20 PM   7:50 PM   8:50 PM   9:50 PM   10:50 PM   11:20 PM   11:50 PM"
+                    NBtime: "        4:42 AM      5:42 AM      6:12 AM\n\n        6:42 AM      7:12 AM      7:42 AM\n\n        8:12 AM      8:42 AM      NO STOP\n\n        9:42 AM      NO STOP   10:42 AM\n\n        11:42 AM    12:42 PM    1:42 PM\n\n        2:42 PM      3:12 PM      3:42 PM\n\n        4:12 PM      4:42 PM      5:12 PM\n\n        5:42 PM      6:12 PM      6:42 PM\n\n        7:12 PM      NO STOP   8:12 PM\n\n        NO STOP   9:12 PM      10:12 PM\n\n        11:12 PM    11:42 PM",
+                    SBtime: "        NO STOP   NO STOP    5:50 AM\n\n        6:20 AM      6:50 AM       7:20 AM\n\n        7:50 AM      8:20 AM       8:50 AM\n\n        9:20 AM      10:20 AM     11:20 AM\n\n        12:20 PM    1:20 PM       2:20 PM\n\n        NO STOP   3:20 PM       3:50 PM\n\n        4:20 PM      4:50 PM       5:20 PM\n\n        5:50 PM      6:20 PM       6:50 PM\n\n        7:20 PM      7:50 PM       8:50 PM\n\n        9:50 PM     10:50 PM      11:20 PM\n\n        11:50 PM"
                 },            
             },
             {
@@ -83,8 +83,8 @@ function HomeItemsViewModel() {
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
-                    NBtime: "4:31 AM   5:31 AM   6:01 AM   6:31 AM   7:01 AM   7:31 AM   8:01 AM   8:31 AM   9:01 AM   9:31 AM   10:01 AM   10:31 AM   11:31 AM   12:31 PM   1:31 PM   2:31 PM   3:01 PM   3:31 PM   4:01 PM   4:31 PM   5:01 PM   5:31 PM   6:01 PM   6:31 PM   7:01 PM   7:31 PM   8:01 PM   8:31 PM   9:01 PM   10:01 PM   11:01 PM   11:31 PM",
-                    SBtime: "5:03 AM   5:33 AM   6:03 AM   6:33 AM   7:03 AM   7:33 AM   8:03 AM   8:33 AM   9:03 AM   9:33 AM   10:33 AM   11:33 AM   12:33 PM   1:33 PM   2:33 PM   3:03 PM   3:33 PM   4:03 PM   4:33 PM   5:03 PM   5:33 PM   6:03 PM   6:33 PM   7:03 PM   7:33 PM   8:03 PM   9:03 PM   10:03 PM   11:03 PM   11:33 PM   12:03 AM"
+                    NBtime: "        4:31 AM      5:31 AM      6:01 AM\n\n        6:31 AM      7:01 AM      7:31 AM\n\n        8:01 AM      8:31 AM      9:01 AM\n\n        9:31 AM      10:01 AM    10:31 AM\n\n        11:31 AM    12:31 PM    1:31 PM\n\n        2:31 PM      3:01 PM      3:31 PM\n\n        4:01 PM      4:31 PM      5:01 PM\n\n        5:31 PM      6:01 PM      6:31 PM\n\n        7:01 PM      7:31 PM      8:01 PM\n\n        8:31 PM      9:01 PM      10:01 PM\n\n        11:01 PM    11:31 PM",
+                    SBtime: "        5:03 AM      5:33 AM      6:03 AM\n\n        6:33 AM      7:03 AM      7:33 AM\n\n        8:03 AM      8:33 AM      9:03 AM\n\n        9:33 AM      10:33 AM    11:33 AM\n\n        12:33 PM    1:33 PM      2:33 PM\n\n        3:03 PM      3:33 PM      4:03 PM\n\n        4:33 PM      5:03 PM      5:33 PM\n\n        6:03 PM      6:33 PM      7:03 PM\n\n        7:33 PM      8:03 PM      9:03 PM\n\n        10:03 PM   11:03 PM    11:33 PM\n\n        12:03 AM"
                 },            
             },
             {
@@ -95,8 +95,8 @@ function HomeItemsViewModel() {
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
-                    NBtime: "4:25 AM   5:25 AM   5:55 AM   6:25 AM   6:55 AM   7:25 AM   8:25 AM   8:55 AM   9:25 AM   9:55 AM   10:25 AM   11:25 AM   12:25 PM   1:25 PM   2:25 PM   2:55 PM   3:25 PM   3:55 PM   4:25 PM   4:55 PM   5:25 PM   5:55 PM   6:25 PM   6:55 PM   7:25 PM   7:55 PM   8:25 PM   8:55 PM   9:55 PM   10:55 PM   11:25 PM",
-                    SBtime: "5:06 AM   5:36 AM   6:06 AM   6:36 AM   7:06 AM   7:36 AM   8:06 AM   8:36 AM   9:06 AM   9:36 AM   10:36 AM   11:36 AM   12:36 PM   1:36 PM   2:36 PM   3:06 PM   3:36 PM   4:06 PM   4:36 PM   5:06 PM   5:36 PM   6:06 PM   6:36 PM   7:06 PM   7:36 PM   8:06 PM   9:06 PM   10:06 PM   11:06 PM   11:36 PM   12:06 AM"
+                    NBtime: "        4:25 AM      5:25 AM      5:55 AM\n\n        6:25 AM      6:55 AM      7:25 AM\n\n        8:25 AM      8:55 AM      9:25 AM\n\n       9:55 AM      10:25 AM     11:25 AM\n\n       12:25 PM    1:25 PM       2:25 PM\n\n       2:55 PM      3:25 PM       3:55 PM\n\n       4:25 PM      4:55 PM       5:25 PM\n\n       5:55 PM      6:25 PM      6:55 PM\n\n       7:25 PM      7:55 PM      8:25 PM\n\n       8:55 PM      9:55 PM      10:55 PM\n\n       11:25 PM",
+                    SBtime: "        5:06 AM      5:36 AM      6:06 AM\n\n        6:36 AM      7:06 AM      7:36 AM\n\n        8:06 AM      8:36 AM      9:06 AM\n\n       9:36 AM      10:36 AM     11:36 AM\n\n       12:36 PM    1:36 PM       2:36 PM\n\n       3:06 PM      3:36 PM       4:06 PM\n\n       4:36 PM      5:06 PM       5:36 PM\n\n       6:06 PM      6:36 PM      7:06 PM\n\n       7:36 PM      8:06 PM      9:06 PM\n\n       10:06 PM   11:06 PM    11:36 PM\n\n       12:06 AM"
                 },            
             },
             {
@@ -107,8 +107,8 @@ function HomeItemsViewModel() {
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
-                    NBtime: "NO STOP   NO STOP   5:46 AM   6:16 AM   6:46 AM   7:16 AM   7:46 AM   8:16 AM   8:46 AM   9:16 AM   9:46 AM   10:16 AM   11:16 PM   12:16 PM   1:16 PM   2:16 PM   NO STOP   3:16 PM   NO STOP   4:16 PM   4:46 PM   5:16 PM   5:46 PM   6:16 PM   6:46 PM   7:16 PM   7:46 PM   8:16 PM   8:46 PM   9:46 PM   10:46 PM",
-                    SBtime: "5:06 AM   5:36 AM   6:06 AM   6:36 AM   7:06 AM   7:36 AM   8:06 AM   8:36 AM   9:06 AM   9:36 AM   10:36 AM   11:36 AM   12:36 PM   1:36 PM   2:36 PM   3:06 PM   3:36 PM   4:06 PM   4:36 PM   5:06 PM   5:36 PM   6:06 PM   6:36 PM   7:06 PM   7:36 PM   8:06 PM   9:06 PM   10:06 PM   11:06 PM   11:36 PM   12:06 AM"
+                    NBtime: "        NO STOP   NO STOP    5:46 AM\n\n        6:16 AM      6:46 AM       7:16 AM\n\n        7:46 AM      8:16 AM       8:46 AM\n\n        9:16 AM      9:46 AM       10:16 AM\n\n        11:16 PM    12:16 PM     1:16 PM\n\n        2:16 PM      NO STOP    3:16 PM\n\n        NO STOP   4:16 PM       4:46 PM\n\n        5:16 PM      5:46 PM       6:16 PM\n\n        6:46 PM      7:16 PM       7:46 PM\n\n        8:16 PM      8:46 PM       9:46 PM\n\n        10:46 PM",
+                    SBtime: "        5:06 AM      5:36 AM       6:06 AM\n\n        6:36 AM      7:06 AM       7:36 AM\n\n        8:06 AM      8:36 AM       9:06 AM\n\n        9:36 AM      10:36 AM     11:36 AM\n\n        12:36 PM    1:36 PM       2:36 PM\n\n        3:06 PM      3:36 PM       4:06 PM\n\n        4:36 PM      5:06 PM       5:36 PM\n\n        6:06 PM      6:36 PM       7:06 PM\n\n        7:36 PM      8:06 PM       9:06 PM\n\n        10:06 PM   11:06 PM     11:36 PM\n\n        12:06 AM"
                 },            
             },
             {
