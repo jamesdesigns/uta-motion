@@ -154,8 +154,8 @@ function HomeItemsViewModel() {
                 city: "American Fork, UT",
                 northBound: "North Bound",
                 southBound: "South Bound",
-                NBtimes: `8:00 AM   9:00 AM  10:00 AM  2:00 PM   3:30 PM    4:00 PM  7:00 PM  10:00 PM 10:35 PM`,
-                SBtimes: `4:00 AM   9:00 AM  10:00 AM  2:00 PM   3:30 PM    4:00 PM  7:00 PM  10:00 PM 10:35 PM`
+                NBtimes: `        NO STOP   NO STOP     5:06 AM\n\n  5:36 AM   6:06 AM   6:36 AM   7:06 AM   7:36 AM   8:06 AM   8:36 AM   9:06 AM   9:36 AM   10:36 AM   11:36 AM   12:36 PM   1:36 PM   NO STOP   3:36 PM   4:06 PM   4:36 PM   5:06 PM   5:36 PM   6:06 PM   6:36 PM   7:06 PM   7:36 PM   8:06 PM   9:06 PM   10:06 PM   10:36 PM   11:06 PM   12:06 AM   1:06 AM   1:36 AM  `,
+                SBtimes: `        5:52 AM   6:22 AM   6:52 AM   7:22 AM   7:52 AM   8:22 AM   8:52 AM   9:22 AM   NO STOP   10:22 AM   11:22 AM   12:22 PM   1:22 PM   2:22 PM   3:22 PM   3:52 PM   4:22 PM   4:52 PM   5:22 PM   5:52 PM   6:22 PM   6:52 PM   7:22 PM   7:52 PM   NO STOP   8:52 PM   9:52 PM   10:52 PM   11:52 PM   12:22 AM   NO STOP`
             },
             {
                 name: "Orem Central",
@@ -164,8 +164,8 @@ function HomeItemsViewModel() {
                 city: "Orem, UT",
                 northBound: "North Bound",
                 southBound: "South Bound",
-                NBtimes: `8:00 AM   9:00 AM  10:00 AM  2:00 PM   3:30 PM    4:00 PM  7:00 PM  10:00 PM 10:35 PM`,
-                SBtimes: `3:00 AM   9:00 AM  10:00 AM  2:00 PM   3:30 PM    4:00 PM  7:00 PM  10:00 PM 10:35 PM`
+                NBtimes: `        NO STOP   NO STOP   4:56 AM   5:26 AM   5:56 AM   6:26 AM   5:56 AM   7:26 AM   7:56 AM   8:26 AM   8:56 AM   9:26 AM   10:26 AM   11:26 AM   12:26 PM   1:26 PM   NO STOP   2:26 PM   NO STOP   3:26 PM   3:56 PM   4:26 PM   4:56 PM   5:26 PM   5:56 PM   6:26 PM   6:56 PM   7:26 PM   7:56 PM   8:56 PM   9:56 PM   10:26 PM   10:56 PM   11:56 PM   12:56 AM   1:26 AM`,
+                SBtimes: `        6:05 AM   6:35 AM   7:05 AM   7:35 AM   8:05 AM   8:35 AM   9:05 AM   9:35 AM   NO STOP   10:35 AM   11:35 AM   12:35 PM   1:35 PM   2:35 PM   3:35 PM   4:05 PM   4:35 PM   5:05 PM   5:35 PM   6:05 PM   6:35 PM   7:05 PM   7:35 PM   8:05 PM   NO STOP   9:05 PM   10:05 PM   11:05 PM   12:05 PM   12:35 AM   NO STOP`
             },
             {
                 name: "Provo Station",
@@ -174,8 +174,8 @@ function HomeItemsViewModel() {
                 city: "Provo, UT",
                 northBound: "North Bound",
                 southBound: "South Bound",
-                NBtimes: `8:00 AM   9:00 AM  10:00 AM  2:00 PM   3:30 PM    4:00 PM  7:00 PM  10:00 PM 10:35 PM`,
-                SBtimes: `2:00 AM   9:00 AM  10:00 AM  2:00 PM   3:30 PM    4:00 PM  7:00 PM  10:00 PM 10:35 PM`
+                NBtimes: `        NO STOP   NO STOP   4:47 AM   5:17 AM   5:47 AM   6:17 AM   6:47 AM   7:17 AM   7:47 AM   8:17 AM   8:47 AM   9:17 AM   10:17 AM   11:17 AM   12:17 PM   1:17 PM   NO STOP   2:17 PM   NO STOP   3:17 PM   3:47 PM   4:17 PM   4:47 PM   5:17 PM   5:47 PM   6:17 PM   6:47 PM   7:17 PM   7:47 PM   8:47 PM   9:47 PM   10:17 PM   10:47 PM   11:47 PM   12:47 AM   1:17 AM`,
+                SBtimes: `        6:12 AM   6:42 AM   7:12 AM   7:42 AM   8:12 AM   8:42 AM   9:12 AM   9:42 AM   NO STOP   10:42 AM   11:42 AM   12:42 PM   1:42 PM   2:42 PM   3:42 PM   4:12 PM   4:42 PM   5:12 PM   5:42 PM   6:12 PM   6:42 PM   7:12 PM   7:42 PM   8:12 PM   NO STOP   9:12 PM   10:12 PM   11:12 PM   12:12 AM   12:42 AM   NO STOP`
             }
         ],
     });
