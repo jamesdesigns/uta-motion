@@ -1,3 +1,4 @@
+
 const observableModule = require("tns-core-modules/data/observable");
 
 function AlertsViewModel() {

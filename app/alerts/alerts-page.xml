@@ -7,10 +7,8 @@
         <Label class="action-bar-title" text="Alerts"></Label>
     </ActionBar>
 
-    <GridLayout class="page-content">
-        <Label class="page-icon fa" text="&#xf071;"></Label>
-        <Label class="page-placeholder" text="Alerts Page"></Label>
-         <WebView width="900%" height="1900px" src="https://twitter.com/RideUTA" />
-
+    <GridLayout columns="*" rows="*" width="100%" height="100%" backgroundColor="lightgray">
+        <!-- <Label text="Label 1" col="0" row="0" backgroundColor="red"/> -->
+        <WebView col="0" row="0" src="{{ firstWebViewSRC }}" />
     </GridLayout>
 </Page>
