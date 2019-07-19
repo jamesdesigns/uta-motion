@@ -59,8 +59,8 @@ function HomeItemsViewModel() {
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
-                    NBtime: "4:53 AM   5:53 AM   6:23 AM   6:53 AM   7:23 AM   7:53 AM   8:23 AM   8:53 AM   NO STOP   9:53 AM   NO STOP   10:53 AM   11:53 AM   12:53 PM   1:53 PM   2:53 PM   3:23 PM   3:53 PM   4:23 PM   4:53 PM   5:23 PM   5:53 PM   6:23 PM   6:53 PM   7:23 PM   NO STOP   8:23 PM   NO STOP   9:23 PM   10:23 PM   11:23 PM   11:53 PM",
-                    SBtime: "NO STOP   NO STOP   5:39 AM   6:09 AM   6:39 AM   7:09 AM  7:39 AM  8:09 AM   8:39 AM   9:09 AM   10:09 AM   11:09 AM   12:09 PM   1:09 PM   2:09 PM   NO STOP   3:09 PM   3:39 PM   4:09 PM   4:39 PM   5:09 PM   5:39 PM   6:09 PM   6:39 PM   7:09 PM   7:39 PM   8:39 PM   9:39 PM   10:39 PM   11:09 PM   11:39 PM"
+                    NBtime: "        4:53 AM      5:53 AM      6:23 AM\n\n        6:53 AM      7:23 AM      7:53 AM\n\n        8:23 AM      8:53 AM      NO STOP\n\n        9:53 AM      NO STOP   10:53 AM\n\n        11:53 AM    12:53 PM    1:53 PM\n\n        2:53 PM      3:23 PM      3:53 PM\n\n        4:23 PM      4:53 PM      5:23 PM\n\n        5:53 PM      6:23 PM      6:53 PM\n\n        7:23 PM      NO STOP   8:23 PM\n\n        NO STOP   9:23 PM      10:23 PM\n\n        11:23 PM    11:53 PM",
+                    SBtime: "        NO STOP   NO STOP    5:39 AM\n\n        6:09 AM      6:39 AM       7:09 AM\n\n        7:39 AM      8:09 AM       8:39 AM\n\n        9:09 AM      10:09 AM     11:09 AM\n\n        12:09 PM    1:09 PM       2:09 PM\n\n        NO STOP   3:09 PM       3:39 PM\n\n        4:09 PM      4:39 PM       5:09 PM\n\n        5:39 PM      6:09 PM       6:39 PM\n\n        7:09 PM      7:39 PM       8:39 PM\n\n        9:39 PM      10:39 PM     11:09 PM\n\n        11:39 PM"
                 },            
             },
             {
